@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33648" started-at="2020-07-30T13:30:45Z" finished-at="2020-07-30T13:31:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33648" started-at="2020-07-30T13:30:45Z" finished-at="2020-07-30T13:31:19Z">
+      <class name="com.TestCase.LoginTest">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:com.TestCase.LoginTest@657c8ad9]" name="Launch" is-config="true" duration-ms="89566" started-at="2020-07-30T13:29:16Z" finished-at="2020-07-30T13:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="checktitle()[pri:0, instance:com.TestCase.LoginTest@657c8ad9]" name="checktitle" duration-ms="121" started-at="2020-07-30T13:30:45Z" finished-at="2020-07-30T13:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checktitle -->
+        <test-method status="PASS" signature="Login_Details()[pri:0, instance:com.TestCase.LoginTest@657c8ad9]" name="Login_Details" duration-ms="21054" started-at="2020-07-30T13:30:46Z" finished-at="2020-07-30T13:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Details -->
+      </class> <!-- com.TestCase.LoginTest -->
+      <class name="com.TestCase.HomeTest">
+        <test-method status="PASS" signature="HomeTest()[pri:0, instance:com.TestCase.HomeTest@436a4e4b]" name="HomeTest" is-config="true" duration-ms="249" started-at="2020-07-30T13:31:07Z" finished-at="2020-07-30T13:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeTest -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.TestCase.HomeTest@436a4e4b]" name="Logout" duration-ms="11956" started-at="2020-07-30T13:31:07Z" finished-at="2020-07-30T13:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.TestCase.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
